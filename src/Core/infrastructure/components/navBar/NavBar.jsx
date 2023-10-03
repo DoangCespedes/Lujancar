@@ -1,19 +1,17 @@
-import { useRef,useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+// import { useRef,useState } from "react";
+// import { FaBars, FaTimes } from "react-icons/fa";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import {FiPhoneCall} from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import logo from '../../../../assets/logo.png';
 import "./Style.css";
 
 export const NavBar= () => {
-    const navRef = useRef();
-
-    const [active, setActive] = useState(true)
-    const showNavBar = () => {
-        navRef.current.classList.toggle("responsive_nav");
-        setActive(false)
-        setActive(true)
-    }
+  
 
   return (
     <>
@@ -21,29 +19,45 @@ export const NavBar= () => {
         <p className="red-top"> <span><FiPhoneCall/></span> CALL US: +1.512.782.8523 <span><FiPhoneCall/></span> CALL US: +1.737.587.4010</p>
         </div>
         <header>
-            {/* <h3  className="logo">Logo</h3> */}
-            <img src={logo} alt='log' className="logo"/>
-            <nav ref={navRef}>
-                <NavLink to='/'>Home</NavLink>
-                <NavLink to='/mywork'>My work</NavLink>
-                {active === false &&
-                    <img src={logo} alt='log' className="logo"/>
-                }
-                <NavLink to='/'>Blog</NavLink>
-                <NavLink to='/about'>About</NavLink>
-                <button onClick={showNavBar} className="nav-btn nav-close-btn">
-                    {active === false &&
-                        <FaTimes/>
-                    }
-                </button>
-                
-            </nav>
+            <Navbar expand="lg" >
+                <Container>
+                    <Navbar.Brand>
+                        <img src={logo} alt='log' className="logo"/>
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                        <Nav.Link className='links'>
+                            <NavLink to='/'>Home</NavLink>
+                        </Nav.Link>
+                        <Nav.Link className='links'>
+                            <NavLink to='/mywork'>My work</NavLink>
+                        </Nav.Link>
+                        <Nav.Link className='links'>
+                            <NavLink to='/about'>About</NavLink>
+                        </Nav.Link>
+                        <Nav.Link className='links'>
+                            <NavLink to='/contact'>Contact</NavLink>
+                        </Nav.Link>
+                        <Nav.Link className='links'>
+                            <NavLink to='/galery'>Galery</NavLink>
+                        </Nav.Link>
 
-            <button onClick={showNavBar} className="nav-btn">
-                {active === true &&
-                    <FaBars/>
-                }
-            </button>
+                        {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.2">
+                            Another action
+                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="#action/3.4">
+                            Separated link
+                        </NavDropdown.Item>
+                        </NavDropdown> */}
+                    </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </header>
     </>
   )

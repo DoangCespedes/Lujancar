@@ -36,23 +36,25 @@ header{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    height: 5rem;
+    /* height: 5rem; */
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 
 
-nav a {
+header .links {
     margin: 0 2rem;
     color: var(--textColor);
     text-decoration: none;
 }
 
-nav a:hover {
+header .links:hover {
     color: var(--secondaryColor);
+
 }
 
 header .nav-btn{
@@ -67,7 +69,7 @@ header .nav-btn{
     font-size: 1.8rem;
 }
 
-@media only screen and (max-width: 1024px){
+/* @media only screen and (max-width: 1024px){
 
     .red-top{
         display: flex;
@@ -117,4 +119,4 @@ header .nav-btn{
         font-size: 1.5rem;
 
     }
-}
+} */
