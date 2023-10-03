@@ -24,23 +24,23 @@ export const NavBar= () => {
                     <Navbar.Brand>
                         <img src={logo} alt='log' className="logo"/>
                     </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                     <Navbar.Toggle aria-controls="basic-navbar-nav"/> 
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link className='links'>
-                            <NavLink to='/'>Home</NavLink>
+                        <Nav.Link>
+                            <NavLink to='/'><p className='links'>Home</p></NavLink>
                         </Nav.Link>
                         <Nav.Link className='links'>
-                            <NavLink to='/mywork'>My work</NavLink>
+                            <NavLink to='/mywork'><p className='links'>My work</p></NavLink>
                         </Nav.Link>
                         <Nav.Link className='links'>
-                            <NavLink to='/about'>About</NavLink>
+                            <NavLink to='/about'><p className='links'>About</p></NavLink>
                         </Nav.Link>
                         <Nav.Link className='links'>
-                            <NavLink to='/contact'>Contact</NavLink>
+                            <NavLink to='/contact'><p className='links'>Contact</p></NavLink>
                         </Nav.Link>
                         <Nav.Link className='links'>
-                            <NavLink to='/galery'>Galery</NavLink>
+                            <NavLink to='/galery'><p className='links'>Galery</p></NavLink>
                         </Nav.Link>
 
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
