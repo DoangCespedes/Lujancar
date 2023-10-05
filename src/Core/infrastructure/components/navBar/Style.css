@@ -1,12 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Outfit:wght@500&display=swap');
 
-:root{
-    --mainColor: rgba(0,0,0);
-    --mainColorLight: rgba(0,0,0, 0.6);
-    --secondaryColor: rgba(255,13,0);
-    --textColor: #ffffff;
-
-}
 
 .red-top{
     display: flex;
