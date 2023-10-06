@@ -1,0 +1,24 @@
+.box_container{
+    width: 100%;
+    max-height: 7rem;
+    background: var(--secondaryColor);
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.box_container .box{
+    display: flex;
+    margin: auto;
+}
+
+.box button{
+    background: var(--btnColor);
+    color: var(--textColor);
+    border-radius: 5px;
+    width: 100px;
+    font-weight: 500;
+}
+

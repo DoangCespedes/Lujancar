@@ -2,6 +2,7 @@ import React from 'react'
 import { Banner } from '../../Core/infrastructure/components/banner/Banner'
 import { Services } from '../../Core/infrastructure/components/sections/services/services'
 import './Style.css'
+import { Advertising } from '../../Core/infrastructure/components/sections/advertising/Advertising'
 
 export const Home = () => {
   return (
@@ -31,6 +32,9 @@ export const Home = () => {
           </article>
         </div>
       </main>
+
+      <Advertising/>
+      
       <Services/>
 
     </>
