@@ -1,11 +1,16 @@
 .box_container{
     width: 100%;
-    max-height: 7rem;
-    background: var(--secondaryColor);
+    height: 300px;
+    /* max-height: 7rem; */
+    position: relative;
+    background: url(../../../../../assets/16.jpg) no-repeat center;
+    background-size: cover;
+    /* background: var(--secondaryColor); */
     justify-content: space-between;
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
+    z-index: 2;
 
 }
 

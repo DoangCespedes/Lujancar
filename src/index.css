@@ -12,7 +12,7 @@
     --secondaryColor: rgba(255,13,0);
     --textColor: #ffffff;
     --btnColor: #1000f5;
-
+    --montserrat: "Montserrat";
 }
 
 * {
@@ -20,12 +20,10 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: white;
-    z-index: 1;
 }
 
 body {
-    background: rgb(2, 2, 26 );
+    
     min-height: 100vh;
     font-family: 'Outfit','Montserrat', sans-serif;
     font-size: 1.2rem;

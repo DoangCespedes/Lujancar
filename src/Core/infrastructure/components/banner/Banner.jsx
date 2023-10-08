@@ -5,9 +5,9 @@ export const Banner = () => {
     <>
         <div className='main-image'> 
             <div className='containerr'>
-                <h1><span>Banner</span></h1>
-                <span className='cen'>Web desing</span>
-                <a className='button' href='#'>Click</a>
+                <h1><span>Lujancar</span></h1>
+                <span className='cen'>Auto Hail Repair's Commitment to Excellence</span>
+                {/* <a className='button' href='#'>Click</a> */}
             </div>
         </div>
     </>

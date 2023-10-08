@@ -1,11 +1,20 @@
 .principal{
-    /* margin-top: .5rem; */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     padding: 1rem 2rem 1rem 2rem;
+    font-weight: 400;
+    color: var(--textColor);
 
 }
 
+.principal h2{
+    margin: 2rem 1rem 2rem 2rem;
+    text-align: center;
+    font-weight: 500;
+    /* color: var(--secondaryColor); */
+    color: var(--textColor);
+
+}
 .section_2{
     display: flex;
     flex-wrap: wrap;
@@ -13,6 +22,9 @@
     max-width: 1200px;
     margin: auto;
     margin-top: 2rem;
+    padding: 0 1rem 0 1rem ;
+    color: var(--textColor);
+
 }
 
 .section_2 .cards{
@@ -21,4 +33,6 @@
     flex-direction: column;
     margin-top: 20px;
     font-weight: 500;
+    color: var(--textColor);
+
 }
