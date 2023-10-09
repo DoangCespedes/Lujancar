@@ -5,27 +5,27 @@ import j from '../../../../assets/4.jpg';
 
 import './Style.css'
 
-export const Galery = () => {
+export const ImagesGalery = () => {
   return (
     <div>
         <section>
         <img
-            className="d-block w-100"
+            
             src={j}
             alt="First slide"
           />
-      <img
-            className="d-block w-100"
+       <img
+            
             src={i}
             alt="First slide"
           />
       <img
-            className="d-block w-100"
+            
             src={c}
             alt="First slide"
           />
       <img
-            className="d-block w-100"
+            
             src={a}
             alt="First slide"
           />

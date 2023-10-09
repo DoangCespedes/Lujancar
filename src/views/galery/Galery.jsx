@@ -1,10 +1,12 @@
-import React from 'react'
+
 import MediaPlayer from '../../Core/infrastructure/components/mediaPlayer/MediaPlayer';
+import { ImagesGalery } from '../../Core/infrastructure/components/galery/ImagesGalery'
 
 export const Galery = () => {
   return (
     <>
-      <MediaPlayer/>
+        <ImagesGalery/>
+        <MediaPlayer/>
     </>
   )
 }
