@@ -9,20 +9,27 @@ import './Style.css'
 export const  SliderAB = () => {
   return (
     <>
-        <Carousel fade >
+        <Carousel fade interval={2000}>
             <Carousel.Item>
             <img
                 className="d-block w-100"
                 src={a}
                 alt="First slide"
             />
+            <Carousel.Caption>
+              <h3>AFTER</h3>
+            </Carousel.Caption>
             </Carousel.Item>
+
             <Carousel.Item>
             <img
                 className="d-block w-100"
                 src={b}
                 alt="First slide"
             />
+            <Carousel.Caption>
+              <h3>BEFORE</h3>
+            </Carousel.Caption>
             </Carousel.Item>
             
         </Carousel>
