@@ -3,11 +3,12 @@ import { Banner } from '../../Core/infrastructure/components/banner/Banner'
 import { Services } from '../../Core/infrastructure/components/sections/services/services'
 import './Style.css'
 import { Advertising } from '../../Core/infrastructure/components/sections/advertising/Advertising'
+import { Slider } from '../../Core/infrastructure/components/carousels/slider/Slider'
 
 export const Home = () => {
   return (
     <>
-        <Banner/>
+        {/* <Banner/> */}
       <main className='bg-black'>
         <article className='principal'>
           <div className='container mt-2'>
@@ -38,8 +39,29 @@ export const Home = () => {
 
       <Services/>
 
-      <Advertising/>
+      {/* <Advertising/> */}
 
+            {/* -----------------------------------------  SLIDER ----------------------------------------------- */}
+      <div className="row">
+        <div className="col-md-4">
+            <div className="row">
+                <Slider/>    
+            </div>
+        </div>
+        <div className="col-md-4">
+            <div className="row">
+                <h3>sdfjshdbv</h3>    
+                sjdhbvcgvssdfhfb ckjssbdc  hbwswdhc  
+            </div>
+        </div>
+        <div className="col-md-4">
+            <div className="row">
+                <Slider/>    
+            </div>
+        </div>
+      </div>
+
+      {/* -----------------------------------------  SLIDER ----------------------------------------------- */}
     </>
   )
 }
