@@ -17,23 +17,25 @@ export const Form = () => {
     };
   return (
     <>
+      <div className='contenedor'>
         <form ref={form} onSubmit={sendEmail} className='field'>
           <label>Name</label>
           <input type="text" name="user_name" />
           <label>Number</label>
-          <input type="text" name="phone_number" />
+          <input type="number" name="phone_number" />
           <label>Email</label>
           <input type="email" name="user_email" />
           <label>Vehicle make</label>
-          <textarea name="message" />
+          <input type="text" name="make" />
           <label>Vehicle model</label>
-          <textarea name="message" />
+          <input type="text" name="model" />
           <label>How did you hear of us?</label>
-          <textarea name="message" />
+          <input type="text" name="social" />
           <label>Question?</label>
           <textarea name="message" />
           <input type="submit" value="Send" />
         </form>
+      </div>
     </>
   )
 }

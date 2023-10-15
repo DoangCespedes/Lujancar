@@ -1,0 +1,10 @@
+h2{
+    justify-content: center;
+    text-align: center;
+    
+}
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
