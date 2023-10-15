@@ -1,4 +1,5 @@
 import './Style.css'
+import {GiAutoRepair} from "react-icons/gi";
 
 
 export const About = () => {
@@ -6,45 +7,13 @@ export const About = () => {
     <>
 
         
-      
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>      
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/><br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/><br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing </p>
+      <div  className="bg-dark">
+        <div className="container text-white text-center"> 
+          <h2>creating</h2>
+          <div className="fs-1 fw-bold "><GiAutoRepair/></div>
+          
+        </div>
+      </div>
     </>
   )
 }
