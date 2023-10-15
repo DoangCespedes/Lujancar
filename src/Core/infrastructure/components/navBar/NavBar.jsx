@@ -30,16 +30,16 @@ export const NavBar= () => {
                             <NavLink to='/'><p className='links'>Home</p></NavLink>
                         </Nav.Link>
                         <Nav.Link className='links'>
-                            <NavLink to='/mywork'><p className='links'>My work</p></NavLink>
-                        </Nav.Link>
-                        <Nav.Link className='links'>
-                            <NavLink to='/about'><p className='links'>About</p></NavLink>
-                        </Nav.Link>
-                        <Nav.Link className='links'>
                             <NavLink to='/contact'><p className='links'>Contact</p></NavLink>
                         </Nav.Link>
                         <Nav.Link className='links'>
                             <NavLink to='/galery'><p className='links'>Galery</p></NavLink>
+                        </Nav.Link>
+                        <Nav.Link className='links'>
+                            <NavLink to='/mywork'><p className='links'>My work</p></NavLink>
+                        </Nav.Link>
+                        <Nav.Link className='links'>
+                            <NavLink to='/about'><p className='links'>About</p></NavLink>
                         </Nav.Link>
                     </Nav>
                     </Navbar.Collapse>

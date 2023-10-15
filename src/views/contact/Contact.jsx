@@ -17,13 +17,13 @@ export const Contact = () => {
           </p>
             <div className="col-md-6">
                 <div className="row">
-                  <h4>Monday to Friday: 8am - 18pm</h4>  
+                  <h4>Monday to Friday: 8am - 6pm</h4>  
                 </div>
             </div>
 
             <div className="col-md-6">
                 <div className="row">
-                <h4>Saturdays: 9am - 14pm</h4>
+                <h4>Saturdays: 9am - 2pm</h4>
                 </div>
             </div>
           </div>

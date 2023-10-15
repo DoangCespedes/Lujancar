@@ -1,0 +1,20 @@
+.contact{
+    
+    border-radius: 10px;
+    background: linear-gradient(00deg, #212529, #ff0303);
+    border: none;
+    width: 8rem;
+    color: var(--textColor);
+
+}
+.contact:hover{
+    margin-top: 5px;
+    background:  #7c0404;
+
+
+}
+
+a{
+    color: var(--textColor);
+    text-decoration: none;
+}

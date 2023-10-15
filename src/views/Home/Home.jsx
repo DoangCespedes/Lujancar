@@ -1,9 +1,9 @@
-import React from 'react'
 import { Banner } from '../../Core/infrastructure/components/banner/Banner'
 import { Services } from '../../Core/infrastructure/components/sections/services/services'
 import './Style.css'
-import { Advertising } from '../../Core/infrastructure/components/sections/advertising/Advertising'
 import { Slider } from '../../Core/infrastructure/components/carousels/slider/Slider'
+import { ImagesGalery3 } from '../../Core/infrastructure/components/galeries/galery_3/ImagesGalery3';
+
 
 export const Home = () => {
   return (
@@ -15,6 +15,8 @@ export const Home = () => {
           </div>
           <p>At Lujancar Auto Hail Repair, we are the reliable solution for all your hail damage issues. Our passion for cars and our commitment to excellence make us the ideal choice for restoring your vehicle's beauty. With years of experience in the industry, our highly trained experts are dedicated to bringing your car back to its original state. Trust us for quality service and outstanding results.</p>
         </article>
+
+        <ImagesGalery3/>
         <hr/>
         <div className='container'>
 
@@ -40,42 +42,42 @@ export const Home = () => {
               </div> 
               <div className="col-md-5">
                   <div className="row">
-                    <h2>Our Quality Promise</h2>
-                    <p>At Lujancar Auto Hail Repair, our promise is simple yet solid: to restore your car's perfection. We work tirelessly to ensure that every detail is taken care of, from the smallest dents to the largest damages. Our dedication to excellence and commitment to customer satisfaction have made us leaders in the hail repair industry. Trust us to breathe life back into your vehicle and enjoy results that speak for themselves.</p>  
+                    
+                      <h2>Our Quality Promise</h2>
+                      <p>At Lujancar Auto Hail Repair, our promise is simple yet solid: to restore your car's perfection. We work tirelessly to ensure that every detail is taken care of, from the smallest dents to the largest damages. Our dedication to excellence and commitment to customer satisfaction have made us leaders in the hail repair industry. Trust us to breathe life back into your vehicle and enjoy results that speak for themselves.</p>  
+                    
                   </div>
               </div>  
               </div>
           </div>
         </div>
-
-
-      <Services/>
+        
+        <div className='bg-dark'>
+          <Services/>
+        </div>
 
       {/* <Advertising/> */}
 
             {/* -----------------------------------------  SLIDER ----------------------------------------------- */}
-      <div className="row">
-        <div className="col-md-4">
-            <div className="row">
-                <Slider/>    
+     
+      
+          <div className="row bg-dark">
+            <div className="col-md-4">
+                <div className="row">
+                    <Slider/>    
+                </div>
             </div>
-        </div>
-        <div className="col-md-4">
-            <div className="row">
-                <h3>sdfjshdbv 
-                  <br/>
-                  <br/>
-                  <br/>
-                </h3> 
+            <div className="col-md-4">
+                <div className="row text-center text-white">
+                    <Slider/>  
+                </div>
             </div>
-        </div>
-        <div className="col-md-4">
-            <div className="row">
-                <Slider/>    
+            <div className="col-md-4">
+                <div className="row">
+                    <Slider/>    
+                </div>
             </div>
-        </div>
-      </div>
-
+          </div>
       {/* -----------------------------------------  SLIDER ----------------------------------------------- */}
     </>
   )
