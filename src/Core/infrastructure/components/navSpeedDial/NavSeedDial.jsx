@@ -17,12 +17,12 @@ export const NavSeedDial = () => {
                 <a href="https://www.facebook.com/profile.php?id=100090143857535" >
                     <IoLogoFacebook className="icon"/>
                 </a>
-                <a href="https://www.instagram.com/" >
+                <a href="https://www.instagram.com/lujancarautohailrepair/" >
                     <FaInstagramSquare className="icon"/>
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=%2B17378779306&data=ARAZTf1TCoa2SuQMf2EJW4uFX67YqPZooVjkTHPFnx0-UdNm72YmIJeSzTz5OLxL6QKECo5mhyArBxx2kk0XVUHQe-Wah-j08zFyDylUQ5aYYjRc8en-Te0gpbioheqjq0hxnu2s01Dh0r5HgIchim7ziQ&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR2pDZTiQzk2_bBeQ9vtt8Yu7fCmZx9ewMVmt1EEgG6E6iJB-3VreUvmj2k" >
+                {/* <a href="https://api.whatsapp.com/send?phone=%2B17378779306&data=ARAZTf1TCoa2SuQMf2EJW4uFX67YqPZooVjkTHPFnx0-UdNm72YmIJeSzTz5OLxL6QKECo5mhyArBxx2kk0XVUHQe-Wah-j08zFyDylUQ5aYYjRc8en-Te0gpbioheqjq0hxnu2s01Dh0r5HgIchim7ziQ&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR2pDZTiQzk2_bBeQ9vtt8Yu7fCmZx9ewMVmt1EEgG6E6iJB-3VreUvmj2k" >
                     <FaWhatsappSquare className="icon"/>
-                </a>
+                </a> */}
                 <a href="https://mail.google.com" >
                     <ImMail className="icon"/>
                 </a>
