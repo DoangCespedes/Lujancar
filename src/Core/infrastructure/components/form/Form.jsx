@@ -14,13 +14,17 @@ export const Form = () => {
         }, (error) => {
             console.log(error.text);
         });
+
+        e.target.reset() //de esta manera limpiamos el formulario 
     };
   return (
     <>
       <div className='contenedor'>
         <form ref={form} onSubmit={sendEmail} className='field'>
           <label>Name</label>
-          <input type="text" name="user_name" />
+          <div className='contenedor'>
+            <input type="text" name="user_name" />
+          </div>
           <label>Number</label>
           <input type="number" name="phone_number" />
           <label>Email</label>
