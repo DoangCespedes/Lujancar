@@ -1,4 +1,5 @@
 import CoustomSlider from '../../Core/infrastructure/components/carousels/coustomSlider/CoustomSlider'
+import { ImagesGalery3 } from '../../Core/infrastructure/components/galeries/galery_3/ImagesGalery3'
 import './Style.css'
 
 
@@ -64,12 +65,13 @@ export const About = () => {
             </div>
           </div>
 
+          <ImagesGalery3/>
+        <hr/>
+
           <div>
             <h2>Specialized Tools of the Trade</h2>
             <p>Hail Repair professionals rely on a variety of specialized tools to perform their work with precision. Some of these tools include:</p>
           </div>
-
-{/* ----------------------------------------------------------------------- */}
 
           <div className="row">
             <div className="col-md-4">
@@ -113,9 +115,6 @@ export const About = () => {
               </div>
             </div>
           </div>
-{/* ----------------------------------------------------------------------- */}
-
-<CoustomSlider/>
 
           <div>
             <h2>Why Choose Hail Repair?</h2>
