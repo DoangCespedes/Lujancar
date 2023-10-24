@@ -10,6 +10,13 @@
   margin-bottom: 3rem;
 }
 
+.alerta{
+  width: 100%;
+  align-items: center;
+  font-size: 12px;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
 
 .field {
     margin-bottom: 10px;
