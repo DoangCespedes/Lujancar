@@ -39,6 +39,17 @@
     border-radius: 5px;
     justify-content: center;
   }
+
+  .field select{
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 25rem;
+    height: 2rem;
+    line-height: 1.5;
+    font-size: 14px;
+    border-radius: 5px;
+    justify-content: center;
+  }
   
   input[type="submit"] {
     display: block;
@@ -60,6 +71,13 @@
 
     .field input {
       
+      width: 20rem;
+      height: 2rem;
+      font-size: 13px;
+      
+    }
+
+    .field select{
       width: 20rem;
       height: 2rem;
       font-size: 13px;
@@ -88,6 +106,13 @@
       font-size: 12px;
     }
 
+    .field select{
+      width: 15rem;
+      height: 2rem;
+      font-size: 13px;
+      
+    }
+
     textarea{
       width: 15rem;
       height: 5rem;
@@ -109,6 +134,13 @@
       width: 10rem;
       height: 1.2rem;
       font-size: 11px;
+      
+    }
+
+    .field select{
+      width: 10rem;
+      height: 2rem;
+      font-size: 13px;
       
     }
 
