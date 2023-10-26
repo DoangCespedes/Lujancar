@@ -29,7 +29,7 @@ export const MyWork = () => {
               <div className="row">
                 <h2>Our Work Hours</h2>
                 <p>We are committed to your convenience. Our work hours are as follows:</p>
-                <p>Monday to Friday: 8:00 am - 6:00 pm</p>
+                <p>Monday to Friday: 9:00 am - 6:00 pm</p>
                 <p>Saturday: 9:00 am - 2:00 pm</p>
                 <p>We are here to address your dent repair needs during these hours, ensuring your vehicle receives the attention it deserves when you need it most.</p>
               </div>

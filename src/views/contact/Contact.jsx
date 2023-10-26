@@ -17,7 +17,7 @@ export const Contact = () => {
           </p>
             <div className="col-md-6">
                 <div className="row">
-                  <h4>Monday to Friday: 8am - 6pm</h4>  
+                  <h4>Monday to Friday: 9am - 6pm</h4>  
                 </div>
             </div>
 
