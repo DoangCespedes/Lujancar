@@ -13,8 +13,8 @@ export const Home = () => {
           <div className='container mt-2'>
             <h2>We restore the beauty of your vehicle.</h2>
           </div>
-          <p>At Lujancar Auto Hail Repair, we are the reliable solution for all your hail damage issues. Our passion for cars and our commitment to excellence make us the ideal choice for restoring your vehicle's beauty. With years of experience in the industry, our highly trained experts are dedicated to bringing your car back to its original state. Trust us for quality service and outstanding results.</p>
-        </article>
+          <p>At AutoHailRepairLujanCar, we are the reliable solution for all your hail damage issues. Our passion for cars and our commitment to excellence make us the ideal choice for restoring your vehicle's beauty. With years of experience in the industry, our highly trained experts are dedicated to bringing your car back to its original state. Trust us for quality service and outstanding results.</p>
+        </article> 
 
         <ImagesGalery3/>
         <hr/>
