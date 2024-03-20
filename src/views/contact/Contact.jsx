@@ -1,6 +1,7 @@
  
 import { Form } from '../../Core/infrastructure/components/form/Form'
 import { MapView } from '../../Core/infrastructure/components/mapView/MapView';
+import { MapView2 } from '../../Core/infrastructure/components/mapView/MapView2';
 import {FiPhoneCall} from "react-icons/fi";
 import './Style.css'
 
@@ -8,7 +9,7 @@ export const Contact = () => {
   return (
     <>
       <div className='bg-dark text-white text-center'>
-        <div className="container">
+        <div className="container"> 
           <div className="row">
             <h2 className='mt-4'>Contact us</h2>
           <p>
@@ -31,6 +32,30 @@ export const Contact = () => {
         
         <div className="container">
           <MapView/>
+        </div> 
+
+
+        <div className="container">
+          <div className="row">
+          <p>
+            Our new address is 504 N Mayhill Rd, Denton, TX 76208. We hope to see you soon!, during our business hours:
+          </p>
+            <div className="col-md-6">
+                <div className="row">
+                  <h4>Monday to Friday: 9am - 6pm</h4>  
+                </div>
+            </div>
+
+            <div className="col-md-6">
+                <div className="row">
+                <h4>Saturdays: 9am - 2pm</h4>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="container">
+          <MapView2/>
         </div>  
 
         <div className="mt-4">
